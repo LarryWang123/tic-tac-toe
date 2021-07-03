@@ -32,7 +32,7 @@ steps:
   displayName: 'Copy files'
   inputs:
     sourceFolder: '$(Build.SourcesDirectory)' 
-    Contents: 'build'
+    Contents: 'build/*'
     TargetFolder: '$(Build.ArtifactStagingDirectory)'
     cleanTargetFolder: true
  
